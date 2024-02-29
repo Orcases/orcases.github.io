@@ -6,7 +6,7 @@
     header( 'Content-type: application/json' );
 
 
-    $to         = 'asksphereblue@gmail.com';
+    $to         = 'info@orcases.com';
 
     $email_template = 'simple.html';
 
