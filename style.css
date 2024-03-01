@@ -446,7 +446,7 @@ White Form Style
 }
 
 .brand-secondary-color {
-    color: #5c5c5c !important;
+    color: #1d1c2d !important;
 }
 
 .brand-bg {
@@ -474,7 +474,12 @@ White Form Style
 
 /* ================= Hero Unit ==================== */
 .intro-title {
-    font-size: 60px;
+    font-size: 70px;
+    font-weight: 900;
+}
+
+.intro-title-minor {
+    font-size: 50px;
     font-weight: 900;
 }
 
@@ -695,12 +700,12 @@ White Form Style
 /* ================= Footer ==================== */
 
 .footer p {
-    color: #c9f0ff;
+    color: #012f38;
 }
 
 .copy-text a,
 .footer-intro a {
-    color: #fff;
+    color: #9f1a1a;
 }
 
 .copy-text,
@@ -749,7 +754,7 @@ Social Link
     height: 40px;
     font-size: 18px;
     line-height: 40px;
-    color: #fff;
+    color: #012f38;
     text-align: center;
     border-radius: 50%;
     -webkit-transform: translateZ(0);
@@ -758,7 +763,7 @@ Social Link
 
 .social-link li a i:hover {
     color: #03a9f4;
-    background: #fff;
+    background: #012f38;
 }
 
 
