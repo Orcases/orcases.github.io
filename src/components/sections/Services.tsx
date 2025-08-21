@@ -1,6 +1,6 @@
 import { motion, useInView } from 'framer-motion'
 import { Button } from '../ui/button'
-import { Palette, Globe, Video, ArrowRight, Sparkles, Zap, Target, Package, Camera, Smartphone } from 'lucide-react'
+import { Palette, Globe, Video, ArrowRight, Sparkles, Zap, Target, Package, Camera, Smartphone, Share2 } from 'lucide-react'
 import { useRef } from 'react'
 
 const services = [
@@ -35,17 +35,17 @@ const services = [
     accentColor: 'green'
   },
   {
-    icon: Package,
-    title: 'Packaging & Print Design',
-    description: 'Stunning packaging and print materials that stand out on shelves and in hands. From concept to production-ready designs.',
-    features: ['Product Packaging', 'Print Design', 'Editorial Design', 'Point of Sale Materials'],
+    icon: Smartphone,
+    title: 'Mobile App Development',
+    description: 'Native and cross-platform mobile applications that users love. From iOS to Android, we create apps that drive engagement and deliver results.',
+    features: ['iOS Development', 'Android Development', 'Cross-Platform Apps', 'App Store Optimization'],
     color: 'from-indigo-500 to-purple-500',
     bgGradient: 'from-indigo-50 to-purple-50',
     darkBg: 'from-indigo-900/20 to-purple-900/20',
     accentColor: 'indigo'
   },
   {
-    icon: Smartphone,
+    icon: Share2,
     title: 'Social Media & Content',
     description: 'Engaging social content and digital assets that build communities and drive engagement across all social platforms.',
     features: ['Social Media Design', 'Content Strategy', 'Photography Direction', 'Email Marketing Design'],
