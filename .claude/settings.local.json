@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:capgemini.com)",
+      "WebFetch(domain:claranet.com)",
+      "WebFetch(domain:nordcloud.com)",
+      "WebFetch(domain:claranet.co.uk)",
+      "WebFetch(domain:www.claranet.com)",
+      "WebFetch(domain:invoke.ie)",
+      "WebFetch(domain:monogram.io)"
+    ],
+    "deny": []
+  }
+}

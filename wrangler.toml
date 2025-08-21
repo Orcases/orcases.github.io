@@ -1,0 +1,13 @@
+# Cloudflare Pages configuration for Frame Foundry
+name = "framefoundry"
+compatibility_date = "2024-12-01"
+
+[build]
+command = "npm run build"
+cwd = ""
+
+[build.environment_variables]
+NODE_VERSION = "18"
+
+[[pages_build_output_dir]]
+value = "dist"
