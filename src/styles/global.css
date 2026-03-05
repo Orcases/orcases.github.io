@@ -1,5 +1,77 @@
 @import "tailwindcss";
 
+/* Font family classes - Montserrat for everything like JustinMind */
+.font-montserrat {
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Legacy font classes for backward compatibility */
 .font-inter {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.font-poppins {
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.font-roboto {
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.font-open-sans {
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Typography utility classes - JustinMind style */
+.text-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+}
+
+.text-subheading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+.text-body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.text-accent {
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-weight: 500;
+}
+
+/* Enhanced typography for creative agency - JustinMind style */
+.text-display {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  line-height: 1.02;
+}
+
+.text-brand {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+}
+
+/* JustinMind inspired sizes */
+.bigtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 64px;
+  line-height: 66px;
+  font-weight: 600;
+}
+
+.mediumtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  line-height: 42px;
+  font-weight: 500;
 }

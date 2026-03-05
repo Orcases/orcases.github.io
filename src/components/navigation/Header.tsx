@@ -7,10 +7,7 @@ import { useState, useEffect } from 'react'
 const navigation = [
   { name: 'Our Work', href: '#work' },
   { name: 'Services', href: '#services' },
-  { name: 'Expertise', href: '#expertise' },
-  { name: 'About', href: '#about' },
-  { name: 'Insights', href: '#insights' },
-  { name: 'Contact', href: '#contact' }
+  { name: 'Our Process', href: '#process' }
 ]
 
 export default function Header() {
@@ -52,13 +49,14 @@ export default function Header() {
             <LogoCreative />
           </a>
 
-          {/* Desktop Navigation */}
-          <motion.nav 
-            className="hidden md:flex items-center space-x-10"
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
+          {/* Navigation + CTA Button - Right Side */}
+          <motion.div 
+            className="hidden md:flex items-center space-x-8"
+            initial={{ opacity: 0, x: 20 }}
+            animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
+            {/* Desktop Navigation */}
             {navigation.map((item, index) => (
               <motion.a
                 key={item.name}
@@ -69,7 +67,7 @@ export default function Header() {
                 transition={{ duration: 0.4, delay: 0.3 + index * 0.1 }}
                 whileHover={{ y: -2 }}
               >
-                <span className="text-gray-300 hover:text-white transition-all duration-300 font-semibold text-lg tracking-wide relative z-10 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-purple-400 group-hover:via-pink-400 group-hover:to-orange-400">
+                <span className="text-gray-300 hover:text-white transition-all duration-300 font-poppins font-semibold text-lg tracking-wide relative z-10 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-purple-400 group-hover:via-pink-400 group-hover:to-orange-400">
                   {item.name}
                 </span>
                 
@@ -80,23 +78,17 @@ export default function Header() {
                 <div className="absolute inset-0 bg-gradient-to-r from-purple-500/0 via-pink-500/0 to-orange-500/0 group-hover:from-purple-500/10 group-hover:via-pink-500/10 group-hover:to-orange-500/10 rounded-lg blur-sm transition-all duration-300 -z-10" />
               </motion.a>
             ))}
-          </motion.nav>
-
-          {/* CTA Button */}
-          <motion.div 
-            className="hidden md:flex items-center"
-            initial={{ opacity: 0, x: 20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6, delay: 0.4 }}
-          >
+            
+            {/* CTA Button */}
             <motion.div
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
               <Button 
-                className="relative bg-gradient-to-r from-purple-600 via-pink-600 to-orange-600 hover:from-purple-700 hover:via-pink-700 hover:to-orange-700 border-0 text-white px-8 py-3 rounded-full group font-semibold text-lg shadow-2xl shadow-purple-500/25 overflow-hidden"
+                className="relative bg-gradient-to-r from-purple-600 via-pink-600 to-orange-600 hover:from-purple-700 hover:via-pink-700 hover:to-orange-700 border-0 text-white px-8 py-3 rounded-lg group font-semibold text-lg shadow-2xl shadow-purple-500/25 overflow-hidden"
+                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
               >
-                <span className="relative z-10 flex items-center">
+                <span className="relative z-10 flex items-center font-poppins font-semibold">
                   Let's Create
                   <motion.span 
                     className="ml-2 text-xl"
@@ -142,7 +134,7 @@ export default function Header() {
               <motion.a
                 key={item.name}
                 href={item.href}
-                className="block text-gray-300 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-purple-400 hover:to-pink-400 transition-all duration-300 font-semibold text-xl py-3 border-b border-gray-800/50 last:border-b-0"
+                className="block text-gray-300 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-purple-400 hover:to-pink-400 transition-all duration-300 font-poppins font-semibold text-xl py-3 border-b border-gray-800/50 last:border-b-0"
                 initial={{ opacity: 0, x: -20 }}
                 animate={isOpen ? { opacity: 1, x: 0 } : { opacity: 0, x: -20 }}
                 transition={{ duration: 0.3, delay: index * 0.1 }}
@@ -159,10 +151,13 @@ export default function Header() {
               className="pt-4"
             >
               <Button 
-                className="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 border-0 text-white rounded-full"
-                onClick={() => setIsOpen(false)}
+                className="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 border-0 text-white rounded-lg"
+                onClick={() => {
+                  setIsOpen(false)
+                  document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })
+                }}
               >
-                Let's Talk
+                Let's Create
               </Button>
             </motion.div>
           </nav>

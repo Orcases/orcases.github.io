@@ -1,0 +1,207 @@
+---
+import Layout from '../layouts/Layout.astro'
+
+const title = "Our Work - Frame Foundry Portfolio"
+const description = "Explore Frame Foundry's creative portfolio showcasing innovative brand identities, digital experiences, and campaigns across industries."
+---
+
+<Layout title={title} description={description} url="https://framefoundry.io/work">
+  <!-- Hero Section -->
+  <section class="min-h-screen bg-gradient-to-br from-black via-slate-900 to-purple-900 flex items-center justify-center px-4 pt-20">
+    <div class="max-w-6xl mx-auto text-center">
+      <div class="mb-8">
+        <div class="inline-flex items-center gap-2 bg-purple-100/10 text-purple-300 px-4 py-2 rounded-full text-sm font-medium mb-8">
+          <span class="w-2 h-2 bg-purple-400 rounded-full animate-pulse"></span>
+          Portfolio Showcase
+        </div>
+        <h1 class="text-6xl md:text-8xl lg:text-9xl font-bold mb-8 leading-tight">
+          Our <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-400 to-orange-400">Creative</span>
+          <br />Work
+        </h1>
+        <p class="text-xl md:text-2xl text-gray-300 mb-12 max-w-4xl mx-auto leading-relaxed">
+          Discover how we've helped brands transform their digital presence through innovative design, strategic thinking, and exceptional execution.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Work -->
+  <section class="py-24 bg-slate-900">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl md:text-6xl font-bold text-white mb-8">Featured Projects</h2>
+        <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+          A selection of our most impactful work across industries and creative disciplines.
+        </p>
+      </div>
+
+      <!-- TechFlow Solutions Case Study -->
+      <div class="mb-16 bg-black/40 rounded-2xl overflow-hidden border border-gray-800 hover:border-purple-500/50 transition-all duration-300 group">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-0">
+          <div class="p-8 lg:p-12 flex flex-col justify-center">
+            <div class="inline-flex items-center gap-2 bg-purple-100/10 text-purple-300 px-3 py-1 rounded-full text-sm font-medium mb-6 w-fit">
+              Brand Transformation
+            </div>
+            <h3 class="text-4xl font-bold text-white mb-4">TechFlow Solutions</h3>
+            <p class="text-xl text-gray-300 mb-6">
+              Complete brand transformation for a B2B SaaS platform, from strategy to digital implementation.
+            </p>
+            <div class="space-y-3 mb-8">
+              <div class="flex items-center text-gray-300">
+                <span class="w-2 h-2 bg-purple-500 rounded-full mr-3"></span>
+                <span>450% increase in website engagement</span>
+              </div>
+              <div class="flex items-center text-gray-300">
+                <span class="w-2 h-2 bg-purple-500 rounded-full mr-3"></span>
+                <span>280% improvement in lead generation</span>
+              </div>
+              <div class="flex items-center text-gray-300">
+                <span class="w-2 h-2 bg-purple-500 rounded-full mr-3"></span>
+                <span>95% brand recognition increase</span>
+              </div>
+            </div>
+            <div class="flex flex-wrap gap-2 mb-8">
+              <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm">Brand Strategy</span>
+              <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm">Visual Identity</span>
+              <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm">Web Design</span>
+              <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm">Development</span>
+            </div>
+            <a href="#case-study" class="text-purple-400 hover:text-purple-300 font-semibold flex items-center">
+              View Case Study <span class="ml-2">→</span>
+            </a>
+          </div>
+          <div class="bg-gradient-to-br from-purple-600 via-pink-600 to-orange-600 p-12 flex items-center justify-center">
+            <div class="text-center">
+              <div class="text-6xl font-bold text-white mb-4">TF</div>
+              <div class="text-xl text-white/80">TechFlow Solutions</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <!-- Project 1: Wellness Brand -->
+        <div class="bg-black/40 rounded-2xl overflow-hidden border border-gray-800 hover:border-pink-500/50 transition-all duration-300 group">
+          <div class="aspect-video bg-gradient-to-br from-green-500 via-teal-500 to-blue-500 flex items-center justify-center">
+            <div class="text-4xl font-bold text-white">ZW</div>
+          </div>
+          <div class="p-6">
+            <div class="inline-flex items-center gap-2 bg-green-100/10 text-green-300 px-3 py-1 rounded-full text-sm font-medium mb-4">
+              Wellness & Health
+            </div>
+            <h3 class="text-xl font-bold text-white mb-3">ZenWell Wellness</h3>
+            <p class="text-gray-300 mb-4">Holistic brand identity and digital platform for a modern wellness company focused on mental health and mindfulness.</p>
+            <div class="flex flex-wrap gap-1 mb-4">
+              <span class="bg-gray-800 text-gray-400 px-2 py-1 rounded text-xs">Brand Identity</span>
+              <span class="bg-gray-800 text-gray-400 px-2 py-1 rounded text-xs">App Design</span>
+              <span class="bg-gray-800 text-gray-400 px-2 py-1 rounded text-xs">Content Strategy</span>
+            </div>
+            <a href="#" class="text-green-400 hover:text-green-300 font-semibold text-sm flex items-center">
+              View Project <span class="ml-1">→</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 2: Fashion E-commerce -->
+        <div class="bg-black/40 rounded-2xl overflow-hidden border border-gray-800 hover:border-orange-500/50 transition-all duration-300 group">
+          <div class="aspect-video bg-gradient-to-br from-pink-500 via-red-500 to-orange-500 flex items-center justify-center">
+            <div class="text-4xl font-bold text-white">LC</div>
+          </div>
+          <div class="p-6">
+            <div class="inline-flex items-center gap-2 bg-pink-100/10 text-pink-300 px-3 py-1 rounded-full text-sm font-medium mb-4">
+              Fashion & Retail
+            </div>
+            <h3 class="text-xl font-bold text-white mb-3">Luna Collective</h3>
+            <p class="text-gray-300 mb-4">Luxury fashion e-commerce platform with immersive product experiences and AI-powered styling recommendations.</p>
+            <div class="flex flex-wrap gap-1 mb-4">
+              <span class="bg-gray-800 text-gray-400 px-2 py-1 rounded text-xs">E-commerce</span>
+              <span class="bg-gray-800 text-gray-400 px-2 py-1 rounded text-xs">UX/UI</span>
+              <span class="bg-gray-800 text-gray-400 px-2 py-1 rounded text-xs">AR Integration</span>
+            </div>
+            <a href="#" class="text-orange-400 hover:text-orange-300 font-semibold text-sm flex items-center">
+              View Project <span class="ml-1">→</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 3: Fintech Startup -->
+        <div class="bg-black/40 rounded-2xl overflow-hidden border border-gray-800 hover:border-blue-500/50 transition-all duration-300 group">
+          <div class="aspect-video bg-gradient-to-br from-blue-600 via-purple-600 to-indigo-600 flex items-center justify-center">
+            <div class="text-4xl font-bold text-white">FP</div>
+          </div>
+          <div class="p-6">
+            <div class="inline-flex items-center gap-2 bg-blue-100/10 text-blue-300 px-3 py-1 rounded-full text-sm font-medium mb-4">
+              Fintech & Finance
+            </div>
+            <h3 class="text-xl font-bold text-white mb-3">FlowPay</h3>
+            <p class="text-gray-300 mb-4">Next-generation payment platform brand identity and mobile app design focused on seamless user experiences.</p>
+            <div class="flex flex-wrap gap-1 mb-4">
+              <span class="bg-gray-800 text-gray-400 px-2 py-1 rounded text-xs">Mobile App</span>
+              <span class="bg-gray-800 text-gray-400 px-2 py-1 rounded text-xs">Brand Design</span>
+              <span class="bg-gray-800 text-gray-400 px-2 py-1 rounded text-xs">Security UX</span>
+            </div>
+            <a href="#" class="text-blue-400 hover:text-blue-300 font-semibold text-sm flex items-center">
+              View Project <span class="ml-1">→</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Results Section -->
+  <section class="py-24 bg-black">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl md:text-6xl font-bold text-white mb-8">Results That Matter</h2>
+        <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+          Our creative work delivers measurable impact across key business metrics.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div class="text-center">
+          <div class="text-5xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400 mb-4">350%</div>
+          <p class="text-gray-300 font-semibold">Average engagement increase</p>
+        </div>
+
+        <div class="text-center">
+          <div class="text-5xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400 mb-4">2.5M</div>
+          <p class="text-gray-300 font-semibold">Users reached across projects</p>
+        </div>
+
+        <div class="text-center">
+          <div class="text-5xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-teal-400 mb-4">180%</div>
+          <p class="text-gray-300 font-semibold">Average conversion improvement</p>
+        </div>
+
+        <div class="text-center">
+          <div class="text-5xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-red-400 mb-4">50+</div>
+          <p class="text-gray-300 font-semibold">Successful projects delivered</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-24 bg-gradient-to-br from-purple-900 via-pink-900 to-orange-900">
+    <div class="max-w-4xl mx-auto text-center px-4">
+      <h2 class="text-4xl md:text-6xl font-bold text-white mb-8">Ready to Join Our Portfolio?</h2>
+      <p class="text-xl text-gray-200 mb-12 max-w-2xl mx-auto">
+        Let's create something extraordinary together. Start your project with Frame Foundry today.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="/contact" class="inline-flex items-center justify-center gap-2 bg-white text-black px-8 py-4 rounded-full font-semibold text-lg hover:bg-gray-100 transition-colors">
+          Start Your Project
+          <span class="ml-2">→</span>
+        </a>
+        <a href="/services" class="inline-flex items-center justify-center gap-2 bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-black transition-colors">
+          Our Services
+        </a>
+      </div>
+    </div>
+  </section>
+</Layout>

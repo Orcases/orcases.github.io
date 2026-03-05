@@ -1,0 +1,209 @@
+---
+import Layout from '../layouts/Layout.astro'
+
+const title = "Creative Services - Frame Foundry"
+const description = "Explore our comprehensive creative services from brand identity and digital experiences to innovative campaigns and strategic consulting."
+---
+
+<Layout title={title} description={description} url="https://framefoundry.io/services">
+  <!-- Hero Section -->
+  <section class="min-h-screen bg-gradient-to-br from-black via-slate-900 to-purple-900 flex items-center justify-center px-4 pt-20">
+    <div class="max-w-6xl mx-auto text-center">
+      <div class="mb-8">
+        <div class="inline-flex items-center gap-2 bg-purple-100/10 text-purple-300 px-4 py-2 rounded-full text-sm font-medium mb-8">
+          <span class="w-2 h-2 bg-purple-400 rounded-full animate-pulse"></span>
+          Creative Excellence
+        </div>
+        <h1 class="text-6xl md:text-8xl lg:text-9xl font-bold mb-8 leading-tight">
+          Our <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-400 to-orange-400">Creative</span>
+          <br />Services
+        </h1>
+        <p class="text-xl md:text-2xl text-gray-300 mb-12 max-w-4xl mx-auto leading-relaxed">
+          From brand identity and digital experiences to innovative campaigns and strategic consulting—we deliver comprehensive creative solutions that drive results.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Grid -->
+  <section class="py-24 bg-slate-900">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <!-- Brand Identity & Strategy -->
+        <div class="bg-black/40 rounded-2xl p-8 border border-gray-800 hover:border-purple-500/50 transition-all duration-300 group min-h-[500px] flex flex-col">
+          <div class="w-16 h-16 bg-purple-100/10 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-purple-500/20 transition-colors">
+            <div class="w-8 h-8 bg-purple-500 rounded-lg"></div>
+          </div>
+          <h3 class="text-2xl font-bold text-white mb-4">Brand Identity & Strategy</h3>
+          <p class="text-gray-300 mb-6 flex-grow">Complete brand development from strategic positioning and visual identity to messaging frameworks and brand guidelines that resonate with your audience.</p>
+          <div class="space-y-2 mb-6">
+            <div class="flex items-center text-gray-400"><span class="w-2 h-2 bg-purple-500 rounded-full mr-3"></span>Brand Strategy & Positioning</div>
+            <div class="flex items-center text-gray-400"><span class="w-2 h-2 bg-purple-500 rounded-full mr-3"></span>Logo Design & Visual Identity</div>
+            <div class="flex items-center text-gray-400"><span class="w-2 h-2 bg-purple-500 rounded-full mr-3"></span>Brand Guidelines & Systems</div>
+            <div class="flex items-center text-gray-400"><span class="w-2 h-2 bg-purple-500 rounded-full mr-3"></span>Rebranding & Refresh</div>
+          </div>
+          <a href="/contact" class="text-purple-400 hover:text-purple-300 font-semibold flex items-center">
+            Learn More <span class="ml-2">→</span>
+          </a>
+        </div>
+
+        <!-- Digital Experiences -->
+        <div class="bg-black/40 rounded-2xl p-8 border border-gray-800 hover:border-blue-500/50 transition-all duration-300 group min-h-[500px] flex flex-col">
+          <div class="w-16 h-16 bg-blue-100/10 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-blue-500/20 transition-colors">
+            <div class="w-8 h-8 bg-blue-500 rounded-lg"></div>
+          </div>
+          <h3 class="text-2xl font-bold text-white mb-4">Digital Experiences</h3>
+          <p class="text-gray-300 mb-6 flex-grow">User-centered design and development of websites, applications, and digital platforms that engage users and drive conversions.</p>
+          <div class="space-y-2 mb-6">
+            <div class="flex items-center text-gray-400"><span class="w-2 h-2 bg-blue-500 rounded-full mr-3"></span>Web Design & Development</div>
+            <div class="flex items-center text-gray-400"><span class="w-2 h-2 bg-blue-500 rounded-full mr-3"></span>UX/UI Design</div>
+            <div class="flex items-center text-gray-400"><span class="w-2 h-2 bg-blue-500 rounded-full mr-3"></span>E-commerce Solutions</div>
+            <div class="flex items-center text-gray-400"><span class="w-2 h-2 bg-blue-500 rounded-full mr-3"></span>Progressive Web Apps</div>
+          </div>
+          <a href="/contact" class="text-blue-400 hover:text-blue-300 font-semibold flex items-center">
+            Learn More <span class="ml-2">→</span>
+          </a>
+        </div>
+
+        <!-- Creative Campaigns -->
+        <div class="bg-black/40 rounded-2xl p-8 border border-gray-800 hover:border-pink-500/50 transition-all duration-300 group min-h-[500px] flex flex-col">
+          <div class="w-16 h-16 bg-pink-100/10 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-pink-500/20 transition-colors">
+            <div class="w-8 h-8 bg-pink-500 rounded-lg"></div>
+          </div>
+          <h3 class="text-2xl font-bold text-white mb-4">Creative Campaigns</h3>
+          <p class="text-gray-300 mb-6 flex-grow">Multi-channel marketing campaigns that tell compelling stories and create meaningful connections between brands and their audiences.</p>
+          <div class="space-y-2 mb-6">
+            <div class="flex items-center text-gray-400"><span class="w-2 h-2 bg-pink-500 rounded-full mr-3"></span>Campaign Strategy & Planning</div>
+            <div class="flex items-center text-gray-400"><span class="w-2 h-2 bg-pink-500 rounded-full mr-3"></span>Creative Direction & Art Direction</div>
+            <div class="flex items-center text-gray-400"><span class="w-2 h-2 bg-pink-500 rounded-full mr-3"></span>Brand Activations</div>
+            <div class="flex items-center text-gray-400"><span class="w-2 h-2 bg-pink-500 rounded-full mr-3"></span>Performance Creative</div>
+          </div>
+          <a href="/contact" class="text-pink-400 hover:text-pink-300 font-semibold flex items-center">
+            Learn More <span class="ml-2">→</span>
+          </a>
+        </div>
+
+        <!-- Mobile App Development -->
+        <div class="bg-black/40 rounded-2xl p-8 border border-gray-800 hover:border-green-500/50 transition-all duration-300 group min-h-[500px] flex flex-col">
+          <div class="w-16 h-16 bg-green-100/10 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-green-500/20 transition-colors">
+            <div class="w-8 h-8 bg-green-500 rounded-lg"></div>
+          </div>
+          <h3 class="text-2xl font-bold text-white mb-4">Mobile App Development</h3>
+          <p class="text-gray-300 mb-6 flex-grow">Native and cross-platform mobile applications that deliver exceptional user experiences across iOS and Android platforms.</p>
+          <div class="space-y-2 mb-6">
+            <div class="flex items-center text-gray-400"><span class="w-2 h-2 bg-green-500 rounded-full mr-3"></span>iOS & Android Development</div>
+            <div class="flex items-center text-gray-400"><span class="w-2 h-2 bg-green-500 rounded-full mr-3"></span>Cross-Platform Solutions</div>
+            <div class="flex items-center text-gray-400"><span class="w-2 h-2 bg-green-500 rounded-full mr-3"></span>App Store Optimization</div>
+            <div class="flex items-center text-gray-400"><span class="w-2 h-2 bg-green-500 rounded-full mr-3"></span>Mobile UX Design</div>
+          </div>
+          <a href="/contact" class="text-green-400 hover:text-green-300 font-semibold flex items-center">
+            Learn More <span class="ml-2">→</span>
+          </a>
+        </div>
+
+        <!-- Social Media & Content -->
+        <div class="bg-black/40 rounded-2xl p-8 border border-gray-800 hover:border-orange-500/50 transition-all duration-300 group min-h-[500px] flex flex-col">
+          <div class="w-16 h-16 bg-orange-100/10 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-orange-500/20 transition-colors">
+            <div class="w-8 h-8 bg-orange-500 rounded-lg"></div>
+          </div>
+          <h3 class="text-2xl font-bold text-white mb-4">Social Media & Content</h3>
+          <p class="text-gray-300 mb-6 flex-grow">Strategic content creation and social media design that builds communities, drives engagement, and amplifies brand reach across platforms.</p>
+          <div class="space-y-2 mb-6">
+            <div class="flex items-center text-gray-400"><span class="w-2 h-2 bg-orange-500 rounded-full mr-3"></span>Social Media Strategy</div>
+            <div class="flex items-center text-gray-400"><span class="w-2 h-2 bg-orange-500 rounded-full mr-3"></span>Content Creation & Curation</div>
+            <div class="flex items-center text-gray-400"><span class="w-2 h-2 bg-orange-500 rounded-full mr-3"></span>Community Management</div>
+            <div class="flex items-center text-gray-400"><span class="w-2 h-2 bg-orange-500 rounded-full mr-3"></span>Influencer Partnerships</div>
+          </div>
+          <a href="/contact" class="text-orange-400 hover:text-orange-300 font-semibold flex items-center">
+            Learn More <span class="ml-2">→</span>
+          </a>
+        </div>
+
+        <!-- Creative Strategy & Consulting -->
+        <div class="bg-black/40 rounded-2xl p-8 border border-gray-800 hover:border-indigo-500/50 transition-all duration-300 group min-h-[500px] flex flex-col">
+          <div class="w-16 h-16 bg-indigo-100/10 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-indigo-500/20 transition-colors">
+            <div class="w-8 h-8 bg-indigo-500 rounded-lg"></div>
+          </div>
+          <h3 class="text-2xl font-bold text-white mb-4">Creative Strategy & Consulting</h3>
+          <p class="text-gray-300 mb-6 flex-grow">Strategic guidance and creative workshops that align your creative vision with business objectives and market opportunities.</p>
+          <div class="space-y-2 mb-6">
+            <div class="flex items-center text-gray-400"><span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>Creative Strategy Development</div>
+            <div class="flex items-center text-gray-400"><span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>Design Thinking Workshops</div>
+            <div class="flex items-center text-gray-400"><span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>Brand Audits & Research</div>
+            <div class="flex items-center text-gray-400"><span class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>Innovation Consulting</div>
+          </div>
+          <a href="/contact" class="text-indigo-400 hover:text-indigo-300 font-semibold flex items-center">
+            Learn More <span class="ml-2">→</span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Process Section -->
+  <section class="py-24 bg-black">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl md:text-6xl font-bold text-white mb-8">Our Process</h2>
+        <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+          Every great project starts with understanding. Our proven process ensures exceptional results every time.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div class="text-center">
+          <div class="w-20 h-20 bg-purple-500/20 rounded-full flex items-center justify-center mx-auto mb-6">
+            <span class="text-3xl font-bold text-purple-400">1</span>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-4">Discovery</h3>
+          <p class="text-gray-300">Deep dive into your brand, goals, and audience to understand the challenge and opportunity.</p>
+        </div>
+
+        <div class="text-center">
+          <div class="w-20 h-20 bg-pink-500/20 rounded-full flex items-center justify-center mx-auto mb-6">
+            <span class="text-3xl font-bold text-pink-400">2</span>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-4">Strategy</h3>
+          <p class="text-gray-300">Develop a creative strategy and roadmap that aligns with your business objectives.</p>
+        </div>
+
+        <div class="text-center">
+          <div class="w-20 h-20 bg-orange-500/20 rounded-full flex items-center justify-center mx-auto mb-6">
+            <span class="text-3xl font-bold text-orange-400">3</span>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-4">Creation</h3>
+          <p class="text-gray-300">Bring the vision to life with exceptional design, development, and creative execution.</p>
+        </div>
+
+        <div class="text-center">
+          <div class="w-20 h-20 bg-blue-500/20 rounded-full flex items-center justify-center mx-auto mb-6">
+            <span class="text-3xl font-bold text-blue-400">4</span>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-4">Launch</h3>
+          <p class="text-gray-300">Deploy your project with ongoing support and optimization for maximum impact.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-24 bg-gradient-to-br from-purple-900 via-pink-900 to-orange-900">
+    <div class="max-w-4xl mx-auto text-center px-4">
+      <h2 class="text-4xl md:text-6xl font-bold text-white mb-8">Ready to Transform Your Brand?</h2>
+      <p class="text-xl text-gray-200 mb-12 max-w-2xl mx-auto">
+        Let's discuss how our creative services can elevate your brand and drive meaningful business results.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="/contact" class="inline-flex items-center justify-center gap-2 bg-white text-black px-8 py-4 rounded-full font-semibold text-lg hover:bg-gray-100 transition-colors">
+          Start Your Project
+          <span class="ml-2">→</span>
+        </a>
+        <a href="/work" class="inline-flex items-center justify-center gap-2 bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-black transition-colors">
+          View Our Work
+        </a>
+      </div>
+    </div>
+  </section>
+</Layout>
